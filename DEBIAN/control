@@ -1,0 +1,8 @@
+Package: lckali
+Version: 1.0-1
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: CyberTech Team <cybertech@champlain.edu>
+Description: This is the resource files and branding for the Leahy Center
+ Kali USB drive
