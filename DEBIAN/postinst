@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+for USER in $(ls /home); do
+	cp /home/$USER/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml /home/$USER/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml.backup
+	sed -i 's/default/leahy.png/g' /home/$USER/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+done
